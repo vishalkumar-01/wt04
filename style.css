@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#f1
+{
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url("./bgclg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#f2{
+
+    min-height: 40vh;
+    min-width: 160vh;
+    background-color: rgba(35, 33, 33, 0.618);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#gg2{
+    background-color: rgba(13, 13, 13, 0.899);
+}
+
+#UI{
+    letter-spacing: 2px;
+    font-family: Tahoma;
+}
+#gg2:hover {
+    text-align: center;
+    background-color:rgb(10, 10, 10);
+    color: rgb(113, 74, 74);
+   
+  }
+#gg3{
+    padding: 10px 0px 0px 10px; 
+    font-family: 'Franklin Gothic Medium';
+    text-size-adjust: 0.58;
+    letter-spacing: 1.5px; 
+    color:rgb(239, 44, 30);
+    padding-bottom: 10px; 
+    font-weight: 600;
+    font-size: 40px;
+}
+#gg3:hover{
+    background-color:rgb(223, 43, 43);
+    color: rgb(15, 14, 14);
+}
+
+
+
+
+.uio{
+    display: flex;
+    flex-direction: column;
+}
+.k{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100vh;
+}
+.ko{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.kl{
+    display: flex;
+    justify-content: space-around;
+}
+.form-control{
+    width: 20px;
+}
+#cc1{
+    color:rgb(223, 43, 43);
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #mm1{
+    margin-right: 20px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+  }
+
+#mm2{
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#mm3{
+    margin-bottom: 10px;
+}
+
+  #c{
+        color: rgb(234, 43, 43);
+  }
+
+  #course-wrapper, form {
+    color: black;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  input{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding-left: -50px;
+  } 
+
+  select{
+    padding: 15px;
+    border: none;
+    border-radius: 7.5px;
+    width: 20%;
+  /*   height: 30px; */
+  }
+ button {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+    margin-left: 10px; 
+    border-width: 3px;
+    border-radius: 30%;
+    border-style: solid;
+  }
+  
+   button:hover {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    color: #fff;
+    background: #f34444;
+    border-color: #080808;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+.lastp {
+    background-color:#080808 ;
+    color:#df3f30
+  }
+  .lastp p {
+    color: rgb(226, 75, 34);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+  } 
+  
+  .lastp p:hover {
+    background-color: #e43a27;
+    color: #000;
+  } 
+
+  @media screen and (max-width: 1200px) {
+    .f1 {
+       width: 70%;
+     }
+   }
+   
+   /* On screens that are 950px or less, set the width to 75% */
+   @media screen and (max-width: 950px) {
+    .f1 {
+       width: 75%;
+     }
+   }
+   
+   /* On screens that are 600px or less, set the width to 90% */
+   @media screen and (max-width: 600px) {
+    .f1 {
+       width: 90%;
+     }
+   }
